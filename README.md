@@ -45,7 +45,7 @@ pothole-detection/models/best.pt
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 pothole-detection/
@@ -63,16 +63,16 @@ pothole-detection/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### 1️⃣ Clone the repository
+### 1️. Clone the repository
 
 ```
 git clone https://github.com/avxway/pothole-detection-system.git
 cd pothole-detection-system
 ```
 
-### 2️⃣ Create virtual environment (recommended)
+### 2️. Create virtual environment (recommended)
 
 ```
 python -m venv venv
@@ -92,7 +92,7 @@ Mac/Linux:
 source venv/bin/activate
 ```
 
-### 3️⃣ Install dependencies
+### 3️. Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -100,7 +100,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 ```
 python main.py
@@ -110,7 +110,7 @@ The GUI window will open.
 
 ---
 
-## 🖥️ How to Use
+## How to Use
 
 1. Click **Upload Image/Video**
 2. Try DIP steps individually
@@ -119,7 +119,7 @@ The GUI window will open.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 * Python
 * OpenCV
@@ -131,7 +131,7 @@ The GUI window will open.
 
 ---
 
-## 📊 Future Improvements
+## Future Improvements
 
 * Mobile deployment
 * Web-based dashboard
@@ -140,12 +140,12 @@ The GUI window will open.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Anmol Verma**
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic and research purposes.

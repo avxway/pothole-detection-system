@@ -1,6 +1,6 @@
-# 🛣️ Pothole Detection System using YOLOv8 and Digital Image Processing
+# Pothole Detection System using YOLOv8 and Digital Image Processing
 
-## 📌 Project Overview
+## Project Overview
 
 This project detects potholes from images, videos, and live camera feed using a hybrid approach:
 
@@ -12,7 +12,7 @@ The system allows users to visualize each processing phase and run real-time pot
 
 ---
 
-## 🎯 Features
+## Features
 
 * Upload image or video for testing
 * Step-by-step DIP processing visualization
@@ -26,7 +26,7 @@ The system allows users to visualize each processing phase and run real-time pot
 
 ---
 
-## 🧠 Model Training (Google Colab)
+## Model Training (Google Colab)
 
 The YOLOv8 model was trained on Google Colab using a custom pothole dataset.
 

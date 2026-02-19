@@ -1,41 +1,71 @@
-# Pothole Detection System using YOLOv8 and Digital Image Processing
+# 🛣️ Pothole Detection System using YOLOv8 & Digital Image Processing
 
-## Project Overview
+## 📌 Project Overview
 
-This project detects potholes from images, videos, and live camera feed using a hybrid approach:
+This project presents a hybrid pothole detection system that combines **Digital Image Processing (DIP)** techniques with **YOLOv8 deep learning detection**.
+It supports pothole identification from **images, videos, and live camera feed**, while also allowing visualization of each processing stage through a GUI.
 
-* Digital Image Processing pipeline (Enhancement → Restoration → Morphology → Segmentation)
-* Deep Learning detection using YOLOv8
-* GUI built with Tkinter for interactive testing
-
-The system allows users to visualize each processing phase and run real-time pothole detection.
+The system demonstrates both traditional image processing pipelines and modern object detection in one unified application.
 
 ---
 
-## Features
+## 📸 Digital Image Processing Pipeline Results
 
-* Upload image or video for testing
-* Step-by-step DIP processing visualization
+### 🖥️ GUI Interface
+
+![GUI](screenshots/gui.png)
+
+### ✨ Enhancement (Histogram Equalization)
+
+![Enhanced](screenshots/enhanced.png)
+
+### 🔧 Restoration (Gaussian Blur)
+
+![Restored](screenshots/restored.png)
+
+### 🧩 Morphological Processing
+
+![Morphology](screenshots/morphology.png)
+
+### 🎯 Segmentation Output
+
+![Segmented](screenshots/segmented.png)
+
+### 🚧 Final Pothole Detection (YOLOv8)
+
+![Detected](screenshots/detected-potholes.png)
+
+### 🎬 Full Demo
+
+![Demo](screenshots/demo.gif)
+
+---
+
+## 🎯 Features
+
+* Upload image or video for analysis
+* Step-wise visualization of DIP pipeline stages
 * Pothole detection on:
 
   * Images
   * Videos
   * Live camera feed
-* YOLOv8 custom trained model support
-* Modular project architecture
+* Custom-trained YOLOv8 model support
+* Modular and scalable project architecture
+* GUI interface built with Tkinter
 
 ---
 
-## Model Training (Google Colab)
+## 🧠 Model Training (Google Colab)
 
 The YOLOv8 model was trained on Google Colab using a custom pothole dataset.
 
-Training steps included:
+Training workflow:
 
-* Dataset preparation in YOLO format
-* Training using Ultralytics YOLOv8
-* Exporting best weights (`best.pt`)
-* Downloading the model for local inference
+1. Dataset annotation and conversion to YOLO format
+2. Training with Ultralytics YOLOv8
+3. Exporting best weights (`best.pt`)
+4. Downloading trained model for local inference
 
 After training, place the model file here:
 
@@ -45,7 +75,7 @@ pothole-detection/models/best.pt
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 pothole-detection/
@@ -57,22 +87,23 @@ pothole-detection/
 ├── utils/
 ├── models/
 │   └── best.pt
+├── screenshots/
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-### 1️. Clone the repository
+### 1️⃣ Clone the repository
 
 ```
 git clone https://github.com/avxway/pothole-detection-system.git
 cd pothole-detection-system
 ```
 
-### 2️. Create virtual environment (recommended)
+### 2️⃣ Create virtual environment (recommended)
 
 ```
 python -m venv venv
@@ -80,19 +111,19 @@ python -m venv venv
 
 Activate it:
 
-Windows:
+**Windows**
 
 ```
 venv\Scripts\activate
 ```
 
-Mac/Linux:
+**Mac/Linux**
 
 ```
 source venv/bin/activate
 ```
 
-### 3️. Install dependencies
+### 3️⃣ Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -100,7 +131,7 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Application
+## ▶️ Running the Application
 
 ```
 python main.py
@@ -110,16 +141,16 @@ The GUI window will open.
 
 ---
 
-## How to Use
+## 🖥️ How to Use
 
 1. Click **Upload Image/Video**
-2. Try DIP steps individually
-3. Run detection on image/video/live camera
+2. Explore each DIP processing stage
+3. Run detection on image, video, or live camera
 4. Press **q** to stop video/camera detection
 
 ---
 
-## Technologies Used
+## 🧰 Technologies Used
 
 * Python
 * OpenCV
@@ -131,21 +162,21 @@ The GUI window will open.
 
 ---
 
-## Future Improvements
+## 🚀 Future Improvements
 
-* Mobile deployment
-* Web-based dashboard
-* Road severity estimation
-* Automatic pothole reporting system
+* Web dashboard deployment
+* Mobile detection system
+* Road damage severity estimation
+* Automated pothole reporting to authorities
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Anmol Verma**
 
 ---
 
-## License
+## 📜 License
 
-This project is for academic and research purposes.
+This project is created for academic and research purposes.

@@ -1,6 +1,6 @@
-# 🛣️ Pothole Detection System using YOLOv8 & Digital Image Processing
+# Pothole Detection System using YOLOv8 & Digital Image Processing
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents a hybrid pothole detection system that combines **Digital Image Processing (DIP)** techniques with **YOLOv8 deep learning detection**.
 It supports pothole identification from **images, videos, and live camera feed**, while also allowing visualization of each processing stage through a GUI.
@@ -9,39 +9,39 @@ The system demonstrates both traditional image processing pipelines and modern o
 
 ---
 
-## 📸 Digital Image Processing Pipeline Results
+## Digital Image Processing Pipeline Results
 
-### 🖥️ GUI Interface
+### GUI Interface
 
 ![GUI](screenshots/gui.png)
 
-### ✨ Enhancement (Histogram Equalization)
+### Enhancement (Histogram Equalization)
 
 ![Enhanced](screenshots/enhanced.png)
 
-### 🔧 Restoration (Gaussian Blur)
+### Restoration (Gaussian Blur)
 
 ![Restored](screenshots/restored.png)
 
-### 🧩 Morphological Processing
+### Morphological Processing
 
 ![Morphology](screenshots/morphology.png)
 
-### 🎯 Segmentation Output
+### Segmentation Output
 
 ![Segmented](screenshots/segmented.png)
 
-### 🚧 Final Pothole Detection (YOLOv8)
+### Final Pothole Detection (YOLOv8)
 
 ![Detected](screenshots/detected-potholes.png)
 
-### 🎬 Full Demo
+### Full Demo
 
 ![Demo](screenshots/demo.gif)
 
 ---
 
-## 🎯 Features
+## Features
 
 * Upload image or video for analysis
 * Step-wise visualization of DIP pipeline stages
@@ -56,7 +56,7 @@ The system demonstrates both traditional image processing pipelines and modern o
 
 ---
 
-## 🧠 Model Training (Google Colab)
+## Model Training (Google Colab)
 
 The YOLOv8 model was trained on Google Colab using a custom pothole dataset.
 
@@ -96,14 +96,14 @@ pothole-detection/
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### 1️. Clone the repository
 
 ```
 git clone https://github.com/avxway/pothole-detection-system.git
 cd pothole-detection-system
 ```
 
-### 2️⃣ Create virtual environment (recommended)
+### 2️. Create virtual environment (recommended)
 
 ```
 python -m venv venv
@@ -123,7 +123,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3️⃣ Install dependencies
+### 3️. Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -131,7 +131,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 ```
 python main.py
@@ -141,7 +141,7 @@ The GUI window will open.
 
 ---
 
-## 🖥️ How to Use
+## How to Use
 
 1. Click **Upload Image/Video**
 2. Explore each DIP processing stage
@@ -150,7 +150,7 @@ The GUI window will open.
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 * Python
 * OpenCV

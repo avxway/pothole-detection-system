@@ -68,8 +68,8 @@ pothole-detection/
 ### 1️⃣ Clone the repository
 
 ```
-git clone [https://github.com/avxway/pothole-detection-system]
-cd pothole-detection
+git clone https://github.com/avxway/pothole-detection-system.git
+cd pothole-detection-system
 ```
 
 ### 2️⃣ Create virtual environment (recommended)

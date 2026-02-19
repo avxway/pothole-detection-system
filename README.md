@@ -68,7 +68,7 @@ pothole-detection/
 ### 1️⃣ Clone the repository
 
 ```
-git clone <your-repo-link>
+git clone [<your-repo-link>](https://github.com/avxway/pothole-detection-system)
 cd pothole-detection
 ```
 

@@ -75,7 +75,7 @@ pothole-detection/models/best.pt
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 pothole-detection/
@@ -142,7 +142,7 @@ The GUI window will open.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Web dashboard deployment
 * Mobile detection system
@@ -151,12 +151,12 @@ The GUI window will open.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Anmol Verma**
 
 ---
 
-## 📜 License
+## License
 
 This project is created for academic and research purposes.

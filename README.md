@@ -103,27 +103,7 @@ git clone https://github.com/avxway/pothole-detection-system.git
 cd pothole-detection-system
 ```
 
-### 2️. Create virtual environment (recommended)
-
-```
-python -m venv venv
-```
-
-Activate it:
-
-**Windows**
-
-```
-venv\Scripts\activate
-```
-
-**Mac/Linux**
-
-```
-source venv/bin/activate
-```
-
-### 3️. Install dependencies
+### 2. Install dependencies
 
 ```
 pip install -r requirements.txt

@@ -94,16 +94,16 @@ pothole-detection/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-### 1️. Clone the repository
+### Clone the repository
 
 ```
 git clone https://github.com/avxway/pothole-detection-system.git
 cd pothole-detection-system
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```
 pip install -r requirements.txt
